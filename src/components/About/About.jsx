@@ -175,7 +175,7 @@ const About = () => {
           variants={fadeIn}
           className="text-center"
         >
-          <div
+          {/* <div
             className='flex justify-center py-8'>
             <Slides
               slides={[
@@ -187,7 +187,7 @@ const About = () => {
               ]}
               imgClassName={"object-contain"}
             />
-          </div>
+          </div> */}
           <h2 className="text-3xl md:text-4xl font-bold text-navy-500 mb-6">Join Us on Our Journey</h2>
 
 
