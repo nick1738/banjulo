@@ -30,7 +30,7 @@ const slides =[
   },
  
   {
-    image:"/money.jpg",
+    image:"/ai-2.jpeg",
     alt:"money"
   },
  

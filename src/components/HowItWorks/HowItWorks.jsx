@@ -77,6 +77,17 @@ const HowItWorks = () => {
           <motion.h2 variants={fadeIn} className="text-3xl md:text-4xl font-bold text-navy-500 mb-6 text-center">
             For Buyers
           </motion.h2>
+
+
+          <div
+            className='flex justify-center p-4'
+          >
+            <img
+              className='max-w-[400px] rounded-xl'
+              src="/ai-2.jpeg" alt="" />
+          </div>
+
+
           <motion.div variants={staggerChildren} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((step, index) => (
               <motion.div
@@ -103,6 +114,16 @@ const HowItWorks = () => {
           <motion.h2 variants={fadeIn} className="text-3xl md:text-4xl font-bold text-navy-500 mb-6 text-center">
             For Sellers
           </motion.h2>
+
+
+          <div
+            className='flex justify-center p-4'
+          >
+            <img
+              className='max-w-[400px] rounded-xl'
+              src="/ai-1.jpeg" alt="" />
+          </div>
+
           <motion.div variants={staggerChildren} className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {features.map((feature, index) => (
               <motion.div
@@ -120,6 +141,9 @@ const HowItWorks = () => {
               </motion.div>
             ))}
           </motion.div>
+
+        
+
         </motion.section>
 
         <EarnMoney />
