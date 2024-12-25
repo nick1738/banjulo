@@ -74,6 +74,17 @@ const MissionAndVision = () => {
         >
           <motion.div variants={fadeIn} className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-navy-500 mb-6">Our Mission</h2>
+
+            <div
+            className='flex justify-center p-4'
+            >
+              <img
+              className='max-w-[400px] rounded-xl'
+              src="/ai-5.jpeg" alt="" />
+
+            </div>
+
+
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               Banjulo.com aims to revolutionize e-commerce in The Gambia by empowering local artisans, Individuals and Businesses to drive economic growth through innovative solutions.
             </p>
