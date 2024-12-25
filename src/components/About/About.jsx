@@ -11,6 +11,10 @@ import slide4 from "../../assets/About/slide4.jpeg"
 import slide5 from "../../assets/About/thumb_Shoes1.jpeg"
 import slide6 from "../../assets/About/accessories.jpeg"
 
+import ai1 from "/ai-1.jpeg"
+import ai2 from "/ai-2.jpeg"
+import ai3 from "/ai-3.jpeg"
+import ai4 from "/ai-4.jpeg"
 
 
 const slides = [
@@ -50,7 +54,7 @@ const About = () => {
       >
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">About <span> Banjulo.com</span></h1>
         <p className="text-xl md:text-2xl mx-auto">
-        Empowering Gambians to Succeed
+          Empowering Gambians to Succeed
         </p>
       </motion.header>
 
@@ -171,7 +175,22 @@ const About = () => {
           variants={fadeIn}
           className="text-center"
         >
+          <div
+            className='flex justify-center py-8'>
+            <Slides
+              slides={[
+                { image: ai1, alt: "Slide 1" },
+                { image: ai2, alt: "Slide 2" },
+                { image: ai3, alt: "Slide 3" },
+                { image: ai4, alt: "Slide 4" },
+
+              ]}
+              imgClassName={"object-contain"}
+            />
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold text-navy-500 mb-6">Join Us on Our Journey</h2>
+
+
 
           <p className="text-lg md:text-xl font-semibold text-gray-700 mb-8 text-left max-w-3xl mx-auto">
             Whether you're looking to purchase unique handmade goods or support Gambian artisans, <span className="text-teal-600 font-bold"> Banjulo.com</span> offers a one-of-a-kind experience that connects people and enable them to celebrates the beauty of The Gambia.

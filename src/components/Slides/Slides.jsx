@@ -18,7 +18,7 @@ const defaultSettings = {
 
 
 
-function Slides({ slides, settings }) {
+function Slides({ slides, settings, imgClassName = "object-cover" }) {
     return (
         <div className="md:w-1/2 w-full">
             <div className="rounded-xl">
@@ -29,7 +29,7 @@ function Slides({ slides, settings }) {
                                 loading="lazy"
                                 src={slide.image}
                                 alt={slide.alt}
-                                className="w-full object-cover rounded-xl max-h-[200px] md:max-h-[350px]"
+                                className={`w-full rounded-xl max-h-[200px] md:max-h-[350px] ${imgClassName}`}
                             />
                         </div>
                     ))}
