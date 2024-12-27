@@ -130,8 +130,8 @@ const Contact = () => {
             <h2 className="text-3xl font-bold text-navy-500 mb-6">Get in Touch</h2>
             <div className="flex items-center space-x-4">
               <Mail className="w-6 h-6 text-teal-600" />
-              <a href="mailto:contact@banjulo.com" className="text-lg text-gray-700 hover:text-teal-600 transition-colors duration-300">
-                contact@banjulo.com
+              <a href="mailto:assan@banjulo.com" className="text-lg text-gray-700 hover:text-teal-600 transition-colors duration-300">
+                assan@banjulo.com
               </a>
             </div>
             <div className="flex items-center space-x-4">
